@@ -99,11 +99,11 @@ const EditarAcuerdo = ({ params }) => {
           icon={ ArrowUturnLeftIcon } 
           onClick={ () => router.back() } 
           variant='solid' 
-          color='red'
+          color='gray'
           tooltip='Regresar'
         />
 
-        <form className='w-full px-5 lg:px-40' onSubmit={handleSubmit}>
+        <form className='lg:px-40 w-full px-5' onSubmit={handleSubmit}>
           <Title className='mt-4'>Datos del acuerdo</Title>
 
           <Subtitle className="mt-2">Responsable a cumplir</Subtitle>

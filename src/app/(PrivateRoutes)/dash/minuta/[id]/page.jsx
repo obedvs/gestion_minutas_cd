@@ -42,14 +42,14 @@ const MinutaSeleccionada = ({ params }) => {
           icon={ArrowUturnLeftIcon}
           onClick={() => router.back()}
           variant='solid'
-          color='red'
+          color='gray'
           tooltip='Regresar'
         />
 
         <div className='md:justify-end md:gap-4 md:mt-0 flex justify-center w-full gap-1 mt-4'>
           <Button
             variant='secondary'
-            color='red'
+            color='gray'
             onClick={() => router.push(`/dash/minutas/${id}/conclusion`)}
           >
             Conclusión de la Reunión
@@ -58,7 +58,7 @@ const MinutaSeleccionada = ({ params }) => {
           <Button
             icon={PlusCircleIcon}
             iconPosition='right'
-            color='red'
+            color='gray'
             onClick={() => router.push(`/dash/minutas/${id}/generaracuerdo`)}
             disabled={minutaData.responsable === idFromSession ? false : true}
           >

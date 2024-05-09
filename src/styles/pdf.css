@@ -69,7 +69,7 @@ body{
 .cont1 {
   /* border-radius: 5px; */
   border-bottom: 1px solid #000;
-  background-color: #B11830;
+  background-color: #6b7280;
   color: white;
   height: auto;
   padding: 0 0 0.8rem 0;
@@ -243,7 +243,7 @@ body{
 
 .cuart1-cab > div{
   border: 1px solid #000;
-  background-color: #B11830;
+  background-color: #6b7280;
   height: auto;
   width: 100%;
   border-left: none;

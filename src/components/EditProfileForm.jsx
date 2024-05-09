@@ -68,7 +68,7 @@ export const EditProfileForm = ({ userData, setIsEditOpen, updateProfilePage, us
             <Title>Edita tu perfil</Title>
             <form className="flex flex-col gap-4 mt-5" onSubmit={onSendForm}>
 
-                <div className="flex flex-col md:flex-row gap-3">
+                <div className="md:flex-row flex flex-col gap-3">
                     <div className="w-full">
                         <Subtitle> Nombre </Subtitle>
                         <TextInput
@@ -92,7 +92,7 @@ export const EditProfileForm = ({ userData, setIsEditOpen, updateProfilePage, us
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row gap-3">
+                <div className="md:flex-row flex flex-col gap-3">
                     <div className="w-full">
                         <Subtitle> Apellido Materno </Subtitle>
                         <TextInput
@@ -118,7 +118,7 @@ export const EditProfileForm = ({ userData, setIsEditOpen, updateProfilePage, us
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row gap-3">
+                <div className="md:flex-row flex flex-col gap-3">
                     <div className="w-full">
                         <Subtitle> RFC </Subtitle>
                         <TextInput
@@ -143,7 +143,7 @@ export const EditProfileForm = ({ userData, setIsEditOpen, updateProfilePage, us
                     </div> */}
                 </div>
 
-                <div className="flex flex-col md:flex-row gap-3">
+                <div className="md:flex-row flex flex-col gap-3">
                     <div className="w-full">
                         <Subtitle> Cargo </Subtitle>
                         <TextInput
@@ -167,7 +167,7 @@ export const EditProfileForm = ({ userData, setIsEditOpen, updateProfilePage, us
                     </div>
                 </div>
 
-                <div className="w-full flex flex-col items-center gap-3 mt-5">
+                <div className="flex flex-col items-center w-full gap-3 mt-5">
                     <Button
                         color="red"
                         className="w-full"

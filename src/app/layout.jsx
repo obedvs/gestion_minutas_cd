@@ -6,8 +6,8 @@ import Loading from './loading'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'UJED - Gestión de Minutas',
-  description: 'Gestión de Minutas - UJED',
+  title: 'Gestión de Minutas',
+  description: 'Gestión de Minutas.',
 }
 
 export default function RootLayout({ children }) {

@@ -103,11 +103,11 @@ const EditarMinuta = ({ params }) => {
           icon={ ArrowUturnLeftIcon } 
           onClick={ () => router.back() } 
           variant='solid' 
-          color='red'
+          color='gray'
           tooltip='Regresar'
         />
 
-      <form className='w-full px-5 lg:px-40' onSubmit={handleSubmit}>
+      <form className='lg:px-40 w-full px-5' onSubmit={handleSubmit}>
         <Subtitle className="mt-2">Asunto</Subtitle>
         <TextInput
           className='w-full mt-1'
@@ -134,7 +134,7 @@ const EditarMinuta = ({ params }) => {
           ))}
         </Select>
 
-        <div className='flex flex-col lg:flex-row gap-1'>
+        <div className='lg:flex-row flex flex-col gap-1'>
           <div className="w-full">
             <Subtitle className='mt-2'>Fecha</Subtitle>
             <TextInput
@@ -232,7 +232,7 @@ const EditarMinuta = ({ params }) => {
         <EditText value={ editableDescription } setValue={ setEditableDescription } read={ true } />
 
         <Button
-          className='w-full mt-4 hidden'
+          className='hidden w-full mt-4'
           type='submit'
           color='green'
           icon={ PaperAirplaneIcon }

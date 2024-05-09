@@ -127,7 +127,7 @@ const NuevoAcuerdo = ({ params }) => {
         icon={ArrowUturnLeftIcon}
         onClick={() => router.back()}
         variant='solid'
-        color='red'
+        color='gray'
         tooltip='Regresar'
       />
 

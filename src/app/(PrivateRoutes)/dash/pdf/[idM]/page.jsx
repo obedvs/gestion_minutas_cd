@@ -184,21 +184,21 @@ const PDFViewer = ({ params }) => {
 
   if (minutaData) {
     return (
-      <div className='flex flex-col justify-center items-center' >
+      <div className='flex flex-col items-center justify-center' >
         <div className='md:flex w-full max-w-[8.5in] justify-around items-center'>
-          <div className='w-full md:w-1/12'>
+          <div className='md:w-1/12 w-full'>
             <Icon className='w-10 h-10 cursor-pointer' 
               icon={ ArrowUturnLeftIcon } 
               onClick={ () => router.back() } 
               variant='solid' 
-              color='red'
+              color='gray'
               tooltip='Regresar'
             />
           </div>
-          <Metric className='w-full md:w-8/12 text-center mb-3 md:mb-0'>Previsualización de la Minuta</Metric>
-          <div className='w-full md:w-3/12'>
+          <Metric className='md:w-8/12 md:mb-0 w-full mb-3 text-center'>Previsualización de la Minuta</Metric>
+          <div className='md:w-3/12 w-full'>
             <Button onClick={() => generatePDF(idM)}
-              className="w-full focus:outline-none mb-2"
+              className="focus:outline-none w-full mb-2"
               icon={DocumentArrowUpIcon}
               iconPosition="right"
               variant='primary'
@@ -206,7 +206,7 @@ const PDFViewer = ({ params }) => {
               tooltip="Generar PDF."
             ><span className=''>Generar </span>PDF</Button>
             <Button onClick={() => downloadPDF(idM)}
-              className="w-full focus:outline-none"
+              className="focus:outline-none w-full"
               icon={DocumentArrowDownIcon}
               iconPosition="right"
               variant='primary'

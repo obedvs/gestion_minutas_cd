@@ -41,7 +41,7 @@ const Perfil = () =>{
                             icon={ UserCircleIcon }
                             size='xl'
                             variant='solid'
-                            color='red'
+                            color='gray'
                             tooltip='Nombre y Correo Electrónico'
                         />
 
@@ -83,7 +83,7 @@ const Perfil = () =>{
 										icon={ BriefcaseIcon }
 										size='md'
 										variant='solid'
-										color='red'
+										color='gray'
 										tooltip='Cargo del usuario'
 									/>
 									<div>
@@ -97,7 +97,7 @@ const Perfil = () =>{
 										icon={ BuildingOffice2Icon }
 										size='md'
 										variant='solid'
-										color='red'
+										color='gray'
 										tooltip='Area de trabajo del usuario'
 									/>
 									<div>

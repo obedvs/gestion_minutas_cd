@@ -61,7 +61,7 @@ const Minutas = () => {
             onClick={() => router.push('/dash/minuta/generar')}
             tooltip="Crear Minuta"
             variant='secondary'
-            color='red'
+            color='gray'
           >
             Crear Minuta
           </Button>
