@@ -1,0 +1,31 @@
+{
+  "name": "gestion_minutas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.3",
+    "@tremor/react": "^3.16.2",
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "html-react-parser": "^5.1.10",
+    "html2pdf.js": "^0.10.1",
+    "jodit-react": "^4.1.2",
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.23.0",
+    "sweetalert2": "^11.6.13"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
